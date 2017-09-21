@@ -15,6 +15,15 @@ from chatter.util.BasicFunctionality import Basics
 from chatter.util.excepthook import my_exception_hook
 from pyAIML.Kernel import Kernel
 
+class EmittingStream(QtCore.QObject):
+    textWritten = QtCore.pyqtSignal(str)
+
+    def write(self, text):
+        self.textWritten.emit(str(text))
+
+    def flush(self):
+        pass
+
 
 class Ui_MainWindow(Ui_MainWindow, Basics):
     def setupUi(self, MainWindow):
