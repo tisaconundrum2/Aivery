@@ -65,6 +65,7 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.pushButton.clicked.connect(self.interact)
 
     def processBrain(self):
+        import lxml.etree as etree
         # TODO add a Qsetting in here to remember where the brains are.
         dir = QtWidgets.QFileDialog.getExistingDirectory(None, "Select Brain Directory", '.')
         for file in os.listdir(dir):
