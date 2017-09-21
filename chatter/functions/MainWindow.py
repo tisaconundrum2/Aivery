@@ -10,11 +10,6 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QSplashScreen
 
-# Form implementation generated from reading ui file 'C:\Users\tisaconundrum\Documents\GitHub\Aivery\ui\MainWindow.ui'
-#
-# Created by: PyQt5 UI code generator 5.6
-#
-# WARNING! All changes made in this file will be lost!
 from chatter.ui.MainWindow import Ui_MainWindow
 from chatter.util.BasicFunctionality import Basics
 
