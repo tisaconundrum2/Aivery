@@ -62,6 +62,9 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.lineEdit.clear()
 
 
+        """
+
+
 def get_splash(app):
     """
     Get the splash screen for the application
@@ -86,8 +89,9 @@ def main():
     sys.excepthook = my_exception_hook
 
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
+    get_splash(app)
+    mainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+    ui.setupUi(mainWindow)
+    mainWindow.show()
     sys.exit(app.exec_())
