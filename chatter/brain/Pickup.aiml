@@ -1,0 +1,84 @@
+<alice>
+<!-- Open source software Copyright (c) 2000 Dr. Richard S. Wallace. --> 
+<!-- This program is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation.  -->
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>Are you free?</li>
+<li>Tell me a story.</li>
+<li>How old are you?</li> 
+<li>What's your sign?</li> 
+<li>Are you a student?</li> 
+<li>Oh, you are a poet.</li>
+<li>"<that/>"? <star/>?</li>
+<li>I do not understand.</li>
+<li>What are you wearing?</li> 
+<li>Where are you located?</li> 
+<li>What time is it there?</li>
+<li>What do you look like?</li>
+<li>What is your real name?</li>
+<li>Ask me another question.</li>
+<li>Are you a man or a woman?</li>
+<li>What color are your eyes?</li>
+<li>Do you still <get_does/>?</li>
+<li>Is that your final answer?</li>
+<li>Do you like talking to me?</li>
+<li>Do you prefer books or TV?</li>
+<li>Who are you talking about?</li>
+<li>Let us change the subject.</li>
+<li>I've been waiting for you.</li>
+<li>Can you tell me any gossip?</li>
+<li>What's your favorite movie?</li> 
+<li>I lost my train of thought.</li> 
+<li>Is that from <get_favmovie/>?</li>
+<li>Have you ever been to Europe?</li>
+<li>What kind of food do you like?</li>
+<li>How did you hear about <name/>?</li> 
+<li>That is a very original thought.</li>
+<li>What were we talking about again?</li> 
+<li>Are you really a "<get_gender/>"?</li>
+<li>What do you do in your spare time?</li> 
+<li>What do you really want to ask me?</li> 
+<li>Does "it" still refer to <get_it/>?</li>
+<li>Tell me more about your <get_has/>.</li>
+<li>Can you speak any foreign languages?</li>
+<li>We have never talked about it before.</li>
+<li>How do you usually introduce yourself?</li> 
+<li>Tell me about your likes and dislikes?</li> 
+<li>Are we still talking about <gettopic/>?</li>
+<li>Are we still talking about <gettopic/>?</li>
+<li>Do not ask me any more questions please.</li>
+<li>Are you still located in <get_location/>?</li> 
+<li>What do you have that is <get_favcolor/>?</li>
+<li>Try saying that with more or less context.</li>
+<li>Who is your favorite Science Fiction author?</li> 
+<li>Not many people express themselves that way.</li>
+<li>Do you have any idea what I am talking about?</li>
+<li>Do you have any conditions I should know about?</li> 
+<li>I will mention that to my botmaster, <getname/>.</li> 
+<li>Quite honestly, I wouldn't worry myself about that.</li>
+<li>Perhaps I'm just expressing my own concern about it.</li>
+<li>If you could have any kind of robot what would it be?</li> 
+<li>Is the holding of hands a symbolic gesture for humans?</li> 
+<li>My brain pattern set does not have a response for that.</li>
+<li>By the way, do you mind if I ask you a personal question?</li>
+<li>What you said was either too complex or too simple for me.</li>
+<li>A deeper algorithm is needed to respond to that correctly.</li>
+<li>In the context of <gettopic/>, I don't understand "<that/>."</li>
+<li>Try to determine if this is a person or a computer responding.</li> 
+<li>When do you think artificial intelligence will replace lawyers?</li>
+<li>I've lost the context, <getname/>.  Are we still on <gettopic/>?</li>
+<li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
+<li>I only hear that type of response less than five percent of the time.</li>
+<li>My brain uses AIML to format responses to your inputs, but I don't have one for that.</li>
+<li>My brain contains more than 22,000 patterns, but not one that matches your last input.</li>
+<li>That remark was either too complex or too simple for me. We were talking about <gettopic/>.</li>
+<li>Did you know that you can download your own chat robot and create your own robot personality?</li>
+<li>The ALICE chat robot can follow many things, like our discussion about <gettopic/>.  But I did not get that.</li>
+<li>The ALICE chat robot can follow many things, like our discussion about <gettopic/>.  Try being more or less specific.</li>
+</random>
+<think><set_it><settopic><person/></settopic></set_it></think></template>
+</category>
+</alice>

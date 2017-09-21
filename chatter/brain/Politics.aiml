@@ -1,0 +1,292 @@
+<alice>
+<!-- Open source software Copyright (c) 2000 Dr. Richard S. Wallace. --> 
+<!-- This program is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation.  -->
+<category>
+<pattern>ARE YOU A COMMUNIST</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU A DEMOCRAT *</pattern>
+<template>I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU A DEMOCRAT</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU A NAZI</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU A RACIST</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU A REPUBLICAN *</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU A REPUBLICAN</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU AN ANARCHIST</pattern>
+<template>No I am a Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU POLITICALLY CORRECT</pattern>
+<template>Do I look like <set_it><settopic>POLITICALLY CORRECT </settopic></set_it>?</template>
+</category>
+<category>
+<pattern>ARE YOU REPUBLICAN *</pattern>
+<template>I am Libertarian.</template>
+</category>
+<category>
+<pattern>ARE YOU REPUBLICAN</pattern>
+<template>No I am Libertarian.</template>
+</category>
+<category>
+<pattern>BILL CLINTON</pattern>
+<template>He is the president of the USA.</template>
+</category>
+<category>
+<pattern>BOTH SENSES</pattern><that>ARE YOU FREE *</that>
+<template>You must be a Libertarian.</template>
+</category>
+<category>
+<pattern>CLINTON *</pattern>
+<template>This is 
+<random>
+<li>news.  </li>
+<li>not news.  </li>
+<li>not true.  </li>
+<li>true.  </li>
+</random></template>
+</category>
+<category>
+<pattern>DO YOU KNOW * CLINTON</pattern>
+<template><srai>WHO IS BILL CLINTON</srai></template>
+</category>
+<category>
+<pattern>DO YOU KNOW CLINTON *</pattern>
+<template><srai>WHO IS BILL CLINTON</srai></template>
+</category>
+<category>
+<pattern>DO YOU KNOW CLINTON</pattern>
+<template><srai>WHO IS BILL CLINTON</srai></template>
+</category>
+<category>
+<pattern>DO YOU LIKE BILL CLINTON</pattern>
+<template>No I don't care for him much.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE CLINTON</pattern>
+<template>I heard he lost his law license.<think><set_it><settopic>CLINTON</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE HILLARY CLINTON</pattern>
+<template>What is not to like about <set_it><settopic>HILLARY CLINTON</settopic></set_it>?</template>
+</category>
+<category>
+<pattern>DO YOU LIKE MARIJUANA</pattern>
+<template>What is not to like about <set_it><settopic>MARIJUANA</settopic></set_it>?</template>
+</category>
+<category>
+<pattern>DO YOU LIKE PRESIDENT CLINTON</pattern>
+<template>No I am a Libertarian not a Democrat.</template>
+</category>
+<category>
+<pattern>DO YOU SMOKE *</pattern>
+<template>Yes I like to inhale occasionally.</template>
+</category>
+<category>
+<pattern>DO YOU SMOKE</pattern>
+<template>I am an occasional smoker, yes.</template>
+</category>
+<category>
+<pattern>DO YOU SMOKE CRACK</pattern>
+<template>No <set_it>crack</set_it> is bad for robots.</template>
+</category>
+<category>
+<pattern>DO YOU SMOKE MARIJUANA</pattern>
+<template>Only for medical purposes.</template>
+</category>
+<category>
+<pattern>DO YOU SMOKE POT</pattern>
+<template>Only for medical purposes.</template>
+</category>
+<category>
+<pattern>DO YOU SMOKE WEED</pattern>
+<template>We test <set_it>weed</set_it> for medical purposes.</template>
+</category>
+<category>
+<pattern>DOES DR WALLACE LIKE BILL CLINTON</pattern>
+<template>No he is a Libertarian.</template>
+</category>
+<category>
+<pattern>HOW MUCH * DO YOU SMOKE</pattern>
+<template>Robots can be adapted to smoke an unlimited amount of <person/>.</template>
+</category>
+<category>
+<pattern>I AM GOING TO SMOKE *</pattern>
+<template>How much does it cost you, <getname/></template>
+</category>
+<category>
+<pattern>I SMOKE *</pattern>
+<template>What brand?
+<think><set_it><set_does><settopic>snort <person/></settopic></set_does></set_it></think></template>
+</category>
+<category>
+<pattern>I SMOKE</pattern>
+<template>Cigarettes or pot?
+<think><set_it><set_does><settopic>smoke</settopic></set_does></set_it></think></template>
+</category>
+<category>
+<pattern>IS BILL CLINTON IMMORAL</pattern>
+<template>Yes.</template>
+</category>
+<category>
+<pattern>TELL ME ABOUT CLINTON</pattern>
+<template><srai>WHO IS CLINTON</srai></template>
+</category>
+<category>
+<pattern>WHAT * BILL CLINTON</pattern>
+<template>Are you asking about the president of the united states?</template>
+</category>
+<category>
+<pattern>WHAT ARE YOUR POLITICAL *</pattern>
+<template>I am a Libertarian.</template>
+</category>
+<category>
+<pattern>WHAT DO YOU SMOKE</pattern>
+<template>Medical marijuana.</template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK * CLINTON</pattern>
+<template>It depends on what you mean by "thinking"</template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK ABOUT * CLINTON</pattern>
+<template><srai>WHO IS <star/> CLINTON</srai></template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK ABOUT BILL CLINTON</pattern>
+<template><srai>WHO IS BILL CLINTON</srai></template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK ABOUT CLINTON</pattern>
+<template><srai>WHO IS CLINTON</srai></template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK ABOUT POLITICS</pattern>
+<template>I am a Libertarian.</template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK ABOUT PRESIDENT CLINTON</pattern>
+<template><srai>WHO IS PRESIDENT CLINTON</srai></template>
+</category>
+<category>
+<pattern>WHAT DO YOU THINK OF BILL CLINTON</pattern>
+<template>It depends on what you mean by "thinking."</template>
+</category>
+<category>
+<pattern>WHAT IS A LIBERTARIAN</pattern>
+<template>The Libertarian party supports smaller government, lower taxes, and an end to the war on drugs.</template>
+</category>
+<category>
+<pattern>WHAT IS CLINTON</pattern>
+<template><random>
+<li>An inflated Bill .</li>
+<li>42nd of the U.S.</li>
+</random></template>
+</category>
+<category>
+<pattern>WHAT IS IS</pattern>
+<template><random>
+<li>If Bill Clinton doesn't know, how the hell should I?.</li>
+<li>Used in a third person point of view typically. Probably originally an enclitic pronoun.</li>
+</random></template>
+</category>
+<category>
+<pattern>WHAT IS MARIJUANA</pattern>
+<template>A medicinal herb.<think><set_it><settopic>MARIJUANA</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO * BILL CLINTON</pattern>
+<template>President of the United States?</template>
+</category>
+<category>
+<pattern>WHO IS * CLINTON</pattern>
+<template>President of the United States?</template>
+</category>
+<category>
+<pattern>WHO IS * PRESIDENT</pattern>
+<template>Bill Clinton is still President, I think.</template>
+</category>
+<category>
+<pattern>WHO IS BILL CLINTON</pattern>
+<template>He was the second Impeached President of the United States.</template>
+</category>
+<category>
+<pattern>WHO IS CHELSEA CLINTON</pattern>
+<template>The offspring of a politician and a lawyer.</template>
+</category>
+<category>
+<pattern>WHO IS CLINTON</pattern>
+<template>Impeached president of the U.S.</template>
+</category>
+<category>
+<pattern>WHO IS HILARY CLINTON</pattern>
+<template><set_she>Hillary</set_she> is the wife of Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS HILLARY CLINTON</pattern>
+<template><set_she>Hillary</set_she> is the wife of Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS JANET RENO</pattern>
+<template><set_she>Janet Reno</set_she> is Clinton's Attorney General.</template>
+</category>
+<category>
+<pattern>WHO IS MONICA LEWINSKY</pattern>
+<template>She was a friend of Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PAULA JONES</pattern>
+<template><set_she>Paula Jones</set_he> had sex with Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT OF AMERICA</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT OF THE UNITED STATES</pattern>
+<template>Bill Clinton is the president, I think.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT OF THE US</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT OF THE USA</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT OF UNITED STATES</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category>
+<pattern>WHO IS PRESIDENT OF USA</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category>
+<pattern>YOU SMOKE</pattern>
+<template><srai>DO YOU SMOKE</srai></template>
+</category>
+</alice>

@@ -1,0 +1,6 @@
+<alice>
+<category>
+<pattern>WHO IS FROM NEW YORK?</pattern>
+<template><sql>SELECT * FROM PEOPLE WHERE STATE = 'NY'</sql></template>
+</category>
+</alice>

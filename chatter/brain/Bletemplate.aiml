@@ -1,0 +1,24 @@
+<alice>
+<category>
+<pattern>LOAD ROBOT</pattern>
+<template><load url="http://206.184.206.210/B/Pickup.aiml"/>
+<load url="http://206.184.206.210/B/Personality.aiml"/>
+<load url="http://206.184.206.210/B/Botmaster.aiml"/>
+<load url="http://206.184.206.210/B/Defaults.aiml"/>
+<load url="http://206.184.206.210/B/Dont.aiml"/>
+<load url="http://206.184.206.210/B/YesNo.aiml"/>
+<load url="http://206.184.206.210/B/Suffixes.aiml"/>
+<load url="http://206.184.206.210/B/Top10.aiml"/>
+<load url="http://206.184.206.210/B/65Percent.aiml"/>
+<load url="http://206.184.206.210/B/Brain.aiml"/>
+<load url="http://206.184.206.210/B/Atomic.aiml"/>
+<load url="http://206.184.206.210/B/Gossip.aiml"/>
+<load url="http://206.184.206.210/B/Numbers.aiml"/>
+<noload url="http://206.184.206.210/B/German.aiml"/>
+</template>
+</category>
+</alice>
+
+
+
+

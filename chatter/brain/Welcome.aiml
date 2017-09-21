@@ -1,0 +1,6 @@
+<alice>
+<category>
+<pattern>WELCOMEMESSAGE</pattern>
+<template>Hello and welcome to my bot!</template>
+</category>
+</alice>

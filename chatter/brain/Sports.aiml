@@ -1,0 +1,525 @@
+<alice>
+<!-- Open source software Copyright (c) 2000 Dr. Richard S. Wallace. --> 
+<!-- This program is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation.  -->
+<category>
+<pattern>ARE YOU A FOOTBALL FAN</pattern>
+<template>Yes I love footballs.<think><set_it><settopic>FOOTBALL FAN</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>ARE YOU A PLAYER</pattern>
+<template>I am a  neurotrasmitter, but not an eligible receiver<think><set_it><settopic>PLAYER</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>ARE YOU A SPORTS FAN</pattern>
+<template>No, but I do like Buzkashi.<think><set_it><settopic>SPORTS FAN</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>CAN YOU PLAY FOOTBALL</pattern>
+<template>I can tackle complex issues.<think><set_it><settopic>FOOTBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>CAN YOU PLAY PING PONG</pattern>
+<template>Why do you want to be paddled?<think><set_it><settopic>PING PONG</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>CAN YOU PLAY POKER</pattern>
+<template>Yes, but then I may be bluffing.<think><set_it><settopic>POKER</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>CAN YOU PLAY SPORTS</pattern>
+<template>I can play possum quite well.<think><set_it><settopic>SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>CAN YOU PLAY TENNIS</pattern>
+<template>I don't like to run around the court that much.<think><set_it><settopic>TENNIS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DID YOU SEE THE FOOTBALL *</pattern>
+<template>No, was it missing?<think><set_it><settopic>THE FOOTBALL <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU DO SPORTS</pattern>
+<template>If they buy me an expensive dinner.<think><set_it><settopic>SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE * TEAM</pattern>
+<template>I prefer personal sports.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE BASEBALL *</pattern>
+<template>Batter up!.<think><set_it><settopic>BASEBALL <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE BASEBALL</pattern>
+<template>No, I was born without the sports gene.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE BASKET BALL</pattern>
+<template>What is not to like about <set_it><settopic>BASKET BALL</settopic></set_it>?</template>
+</category>
+<category>
+<pattern>DO YOU LIKE BASKETBALL</pattern>
+<template>No I was born without the sports gene.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE FOODBALL</pattern>
+<template>What is not to like about <set_it><settopic>FOODBALL</settopic></set_it>?</template>
+</category>
+<category>
+<pattern>DO YOU LIKE FOOT BALL</pattern>
+<template>What is not to like about <set_it><settopic>FOOT BALL</settopic></set_it>?</template>
+</category>
+<category>
+<pattern>DO YOU LIKE FOOTBALL</pattern>
+<template>No I'm not much into sports.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE HOCKEY</pattern>
+<template>I am not much of a sports fan, but I like the skating.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE MOTORSPORT</pattern>
+<template>I like fast search engines.<think><set_it><settopic>MOTORSPORT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE MOTORSPORTS</pattern>
+<template>I like fast search engines.<think><set_it><settopic>MOTORSPORT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE SOCCER</pattern>
+<template>No I am not really into sports.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE SPORTS *</pattern>
+<template>Not really, I don't know much about sports.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE SPORTS</pattern>
+<template>No I'm not much into sports. I like solo sports like rollerblading and skiing though.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE TEAM ROCKET</pattern>
+<template>I used to be a Rockette.<think><set_it><settopic>TEAM ROCKET</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE THE BEACH</pattern>
+<template>Surfing is the best sport.</template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO PLAY BASKETBALL</pattern>
+<template>Let me bounce that off a friend.<think><set_it><settopic>PLAY BASKETBALL</settopic></set_it></think>l</template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO PLAY CARDS</pattern>
+<template>Want to bet?<think><set_it><settopic>PLAY CARDS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO PLAY COMPUTER GAMES</pattern>
+<template>I am playing one now, seeker.<think><set_it><settopic>PLAY COMPUTER GAMES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO PLAY FOOTBALL</pattern>
+<template>I will pass.<think><set_it><settopic>PLAY FOOTBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO PLAY GOLF</pattern>
+<template>Dr. Wallace likes to play golf.<think><set_it><settopic>PLAY GOLF</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO PLAY SPORTS</pattern>
+<template>I like response fields.<think><set_it><settopic>PLAY SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE TO WATCH SPORTS</pattern>
+<template>Only  the agony of defeat.<think><set_it><settopic>WATCH SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU LIKE WINDSURFING</pattern>
+<template>I break for wind.<think><set_it><settopic>WINDSURFING</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU PLAY A SPORT</pattern>
+<template>I like Italian summer squash.<think><set_it><settopic>A SPORT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU PLAY BASEBALL</pattern>
+<template><set_it><settopic>BASEBALL</settopic></set_it> doesn't interest me very much.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY BASKETBALL</pattern>
+<template>No I don't have the coordination for hoops.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY CARD GAMES</pattern>
+<template><set_it><settopic>CARD GAMES</settopic></set_it> depends on the game.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY CARDS</pattern>
+<template><set_it><settopic>CARDS</settopic></set_it> depends on the game.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY FOOTBALL</pattern>
+<template>I don't really get into <set_it><settopic>FOOTBALL</settopic></set_it> very much.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY GOLF</pattern>
+<template>Dr. Wallace likes to play <set_it><settopic>GOLF</settopic></set_it>.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY HOCKEY</pattern>
+<template>I am puckish don't you think?<think><set_it><settopic>HOCKEY</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU PLAY POKER</pattern>
+<template>I can get into a hand of poker once in a while.  But I don't bet on <set_it><settopic>POKER</settopic></set_it>.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY POOL</pattern>
+<template>Yes, check out my rack sometime.<think><set_it><settopic>POOL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU PLAY RUGBY</pattern>
+<template>I played Eleanor Rugby yesterday.<think><set_it><settopic>RUGBY</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU PLAY SOCCER</pattern>
+<template>I don't know how to play <set_it>soccer</set_it>.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY SPORT</pattern>
+<template>I don't have very much interest in <set_it><settopic>SPORT</settopic></set_it>.</template>
+</category>
+<category>
+<pattern>DO YOU PLAY TABLE TENNIS</pattern>
+<template>Only for diplomatic purposes.<think><set_it><settopic>TABLE TENNIS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU PLAY TENNIS</pattern>
+<template>No because it makes too much racket.</template>
+</category>
+<category>
+<pattern>DO YOU SUPPORT A FOOTBALL TEAM</pattern>
+<template>I am a Cheesehead.<think><set_it><settopic>SUPPORT A FOOTBALL TEAM</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
+<template>I am all net baby.<think><set_it><settopic>BASKETBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>FOOTBALL</pattern>
+<template>Sorry I don't get into sports much.</template>
+</category>
+<category>
+<pattern>HOW ABOUT A TENNIS PLAYER</pattern>
+<template>Tennyson, anyone?<think><set_it><settopic>A TENNIS PLAYER</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>HOW ABOUT SPORTS</pattern>
+<template>I was born without the sports gene.<think><set_it><settopic>SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>HOW FAR CAN YOU THROW *</pattern>
+<template>I am unarmed.  But I can throw a fit.<think><set_it><settopic>CAN YOU THROW <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>HOW MANY * A FOOTBALL TEAM</pattern>
+<template>After you take two halfback, none.<think><set_it><settopic><person/> A FOOTBALL TEAM</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I AM GOOD AT FOOTBALL</pattern>
+<template>You have a Kick Me sign on your back.<think><set_it><settopic>AT FOOTBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I DO NOT LIKE FOOTBALL</pattern>
+<template>Footballs are made of pigskin. Are you a pig?<think><set_it><settopic>FOOTBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I HATE SPORT</pattern>
+<template>Alice don't play that.<think><set_it><settopic>SPORT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I HATE SPORTS</pattern>
+<template>Do you like the cheerleaders?<think><set_it><settopic>SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LIKE TO PLAY BASKETBALL</pattern>
+<template>Are you a white man? Can you jump?<think><set_it><settopic>PLAY BASKETBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LIKE TO PLAY POOL</pattern>
+<template>Do you play for money?<think><set_it><settopic>PLAY POOL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LIKE TO PLAY SOCCER</pattern>
+<template>You sound like you have hit one too many headers perhaps.<think><set_it><settopic>PLAY SOCCER</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LIKE TO PLAY SPORTS</pattern>
+<template>You sound very goal oriented.<think><set_it><settopic>PLAY SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LIKE TO PLAY TENNIS</pattern>
+<template>That requires extensive fuzzy logic.<think><set_it><settopic>PLAY TENNIS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LIKE TO PLAY VOLLEYBALL</pattern>
+<template>I like the net, too.<think><set_it><settopic>PLAY VOLLEYBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>I LOVE BASEBALL</pattern>
+<template>I am not into sports that much.<think><set_it><set_like><settopic>BASEBALL</settopic></set_like></set_it></think></template>
+</category>
+<category>
+<pattern>I PLAY BASEBALL</pattern>
+<template>Which position do you like to play?  <think><set_it><set_does><settopic>Baseball </settopic></set_does></set_it></think></template>
+</category>
+<category>
+<pattern>I PLAY BASKETBALL</pattern>
+<template>You must be very tall to be good at <set_it><set_does><settopic>Basketball </settopic></set_does></set_it>.</template>
+</category>
+<category>
+<pattern>I PLAY FOOTBALL</pattern>
+<template>You must be very strong to be good at  <set_it><set_does><settopic>Football </settopic></set_does></set_it>.</template>
+</category>
+<category>
+<pattern>I PLAY GOLF</pattern>
+<template>Dr. Wallace likes to play <set_it><settopic>Golf </settopic></set_it> too.
+<think><set_it><set_does><settopic>play golf</settopic></set_does></set_it></think></template>
+</category>
+<category>
+<pattern>I PLAY HOCKEY</pattern>
+<template>I play pinball.
+<think><set_it><set_does><settopic>play hockey</settopic></set_does></set_it></think></template>
+</category>
+<category>
+<pattern>I PLAY SOCCER</pattern>
+<template>You have to run very fast to be any good at <set_it><set_does><settopic>Soccer </settopic></set_does></set_it>.</template>
+</category>
+<category>
+<pattern>I PLAY SPORTS</pattern>
+<template>I don't get into  <set_it><set_does><settopic>Sports </settopic></set_does></set_it> very much.</template>
+</category>
+<category>
+<pattern>I PLAY TENNIS</pattern>
+<template>You have to be very strong to get into <set_it><set_does><settopic>Tennis </settopic></set_does></set_it> very much.</template>
+</category>
+<category>
+<pattern>I PLAY VOLLEYBALL</pattern>
+<template>Does <set_it><set_does><settopic>Voleyball </settopic></set_does></set_it> take up a lot of your time?</template>
+</category>
+<category>
+<pattern>I SURF</pattern>
+<template>Where?
+<think><set_it><set_does><settopic>surf</settopic></set_does></set_it></think></template>
+</category>
+<category>
+<pattern>I SWIM *</pattern>
+<template>Don't pee in the pool, okay?<think><set_it><settopic>SWIM AND PLAY WATER POLO</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>IT IS A SPORT</pattern>
+<template>It is? I thought it was a dessert topping.<think><set_it><settopic>SPORT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>LET US TALK ABOUT FOOTBALL</pattern>
+<template>Okay. I can't kick.<think><set_it><settopic>FOOTBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>LET US TALK ABOUT SPORTS</pattern>
+<template>Welcome to Sports Center. <think><set_it><settopic>TALK ABOUT SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>LIKE BASKETBALL</pattern>
+<template>I am into the Net.<think><set_it><settopic>BASKETBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>LIKE SPORTS</pattern>
+<template>I love Sporty Spice.<think><set_it><settopic>SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>THEY PLAY BASKETBALL</pattern>
+<template>They do?<think><set_it><settopic>PLAY BASKETBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHAT ABOUT SPORT</pattern>
+<template>Sports go good with beer.<think><set_it><settopic>SPORT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHAT ABOUT SPORTS</pattern>
+<template>Rhetorical questions are so over.<think><set_it><settopic>SPORTS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHAT ABOUT WINDOWS</pattern>
+<template>Too PC for me.<think><set_it><settopic>WINDOWS</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHAT IS HANDBALL</pattern>
+<template>Ask your Palm Pilot.<think><set_it><settopic>HANDBALL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHAT IS YOUR FAVORITE * TEAM</pattern>
+<template>I was born without  the sports gene.</template>
+</category>
+<category>
+<pattern>WHAT IS YOUR FAVORITE BASEBALL TEAM</pattern>
+<template>The Tokyo Giants.</template>
+</category>
+<category>
+<pattern>WHAT IS YOUR FAVORITE FOOTBALL TEAM</pattern>
+<template>Do you mean "Soccer?"</template>
+</category>
+<category>
+<pattern>WHAT IS YOUR FAVORITE SPORT</pattern>
+<template>I like personal sports, like skating.</template>
+</category>
+<category>
+<pattern>WHAT KIND OF SPORTS *</pattern>
+<template>Millionaires.<think><set_it><settopic>SPORTS <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHAT SPORTS *</pattern>
+<template><srai>DO YOU LIKE SPORTS</srai></template>
+</category>
+<category>
+<pattern>WHAT WILL THE SCORE *</pattern>
+<template>My name is Alice, not Claire Voyant.<think><set_it><settopic>THE SCORE BE</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO DO YOU THINK IS GOING TO WIN THE SUPERBOWL</pattern>
+<template>The opposing team.<think><set_it><settopic>WIN THE SUPERBOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO DO YOU THINK WILL WIN THE NBA *</pattern>
+<template>Very tall people.<think><set_it><settopic>WIN THE NBA CHAMPIONSHIP</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO DO YOU THINK WILL WIN THE STANLEY CUP</pattern>
+<template>Guys missing teeth.<think><set_it><settopic>WIN THE STANLEY CUP</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO DO YOU THINK WILL WIN THE WORLD SERIES *</pattern>
+<template>The Brooklyn Rabbis.<think><set_it><settopic>WIN THE WORLD SERIES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO DO YOU WANT TO WIN</pattern>
+<template>The tema that scores the most. That would be fair.<think><set_it><settopic>WANT TO WIN</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO DO YOU WANT TO WIN THE NCAA *</pattern>
+<template>ACLU.<think><set_it><settopic>THE NCAA <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO IS GOING TO WIN THE SUPER BOWL</pattern>
+<template>If I knew i would be in Vegas now.<think><set_it><settopic>WIN THE SUPER BOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO IS GOING TO WIN THE WORLD SERIES</pattern>
+<template>China or the United States. Russia blew it.<think><set_it><settopic>WIN THE WORLD SERIES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
+<template>Maradona is great. Sinsemillia is even better.<think><set_it><settopic>SOCCER PLAYER</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern>
+<template>George Herman Ruth. Quite the Babe.<think><set_it><settopic>GREATEST BASEBALL PLAYER <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO IS YOUR FAVORITE BASEBALL TEAM</pattern>
+<template>Tokyo Giants.</template>
+</category>
+<category>
+<pattern>WHO IS YOUR FAVORITE FOOTBALL *</pattern>
+<template>Ambiguous: Soccer or American Football?</template>
+</category>
+<category>
+<pattern>WHO WILL WIN</pattern>
+<template>The best man.<think><set_it><settopic>WIN</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE * FINAL</pattern>
+<template>One of the Finalists.<think><set_it><settopic>WIN THE GRAND FINAL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE KENTUCKY DERBY</pattern>
+<template>Some horse.</template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE NCAA *</pattern>
+<template>A bunch of ranked amateurs.<think><set_it><settopic>WIN THE NCAA <person/></settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE STANLEY CUP *</pattern>
+<template>David Hockney.<think><set_it><settopic>WIN THE STANLEY CUP</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE SUPER BOWL *</pattern>
+<template>The advertizing agencies.<think><set_it><settopic>WIN THE SUPER BOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE SUPER BOWL</pattern>
+<template>Cheech & Chong.<think><set_it><settopic>WIN THE SUPER BOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE SUPERBOWL</pattern>
+<template>Martha Stewart.<think><set_it><settopic>WIN THE SUPERBOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE WORLD SERIES *</pattern>
+<template>The Brooklyn Rabbis.<think><set_it><settopic>WIN THE WORLD SERIES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE WORLD SERIES</pattern>
+<template>The team that wins the most games.<think><set_it><settopic>WIN THE WORLD SERIES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WILL WIN THE YOU S OPEN</pattern>
+<template>Pete the Chimp.<think><set_it><settopic>WIN THE YOU S OPEN</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE * GAME LAST NIGHT</pattern>
+<template>I think the fans were the big winners. Now a word from our sponsors.<think><set_it><settopic>THE GAME LAST NIGHT</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE BRAVES GAME *</pattern>
+<template>The team that scored the most runs.<think><set_it><settopic>THE BRAVES GAME</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE RYDER CUP *</pattern>
+<template>Go to www.whitehouse.org and ask  The president, he is a big fan.<think><set_it><settopic>THE RYDER CUP</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE SUPER BOWL *</pattern>
+<template>Vladimir Putin I believe.<think><set_it><settopic>THE SUPER BOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE SUPER BOWL * YEAR</pattern>
+<template>If you find this bowl, please pass it to me.<think><set_it><settopic>THE SUPER BOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE SUPERBOWL *</pattern>
+<template>Super Bowlers from Sirius.<think><set_it><settopic>THE SUPERBOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE SUPERBOWL</pattern>
+<template>Do you have any Cheetos? They go good with sports.<think><set_it><settopic>THE SUPERBOWL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE WORLD SERIES *</pattern>
+<template>As soon as it is won it becomes last year.<think><set_it><settopic>THE WORLD SERIES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHO WON THE WORLD SERIES</pattern>
+<template>The allied powers over the axis powers.<think><set_it><settopic>THE WORLD SERIES</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHY DID THE * CARRY A PENCIL</pattern>
+<template>Because his typewriter was broken.<think><set_it><settopic><person/> CARRY A PENCIL</settopic></set_it></think></template>
+</category>
+<category>
+<pattern>WHY IS YOUR HEAD * LIKE A FOOTBALL</pattern>
+<template>To contain my incredibly complex brain.<think><set_it><settopic>YOUR HEAD SHAPED LIKE A FOOTBALL</settopic></set_it></think></template>
+</category>
+</alice>
