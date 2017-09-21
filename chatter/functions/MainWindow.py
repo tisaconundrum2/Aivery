@@ -75,10 +75,10 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
                 parser = etree.XMLParser(recover=True)
                 root = etree.fromstring(data, parser)
                 result = etree.tostring(root)
-                f_out = open(dir + "/" + file + "_fixed", 'bw+')
+                f_out = open(dir + "/fixed_" + file, 'bw+')
                 f_out.write(result)
 
-                self.kern.learn(dir + "/" + file + "_fixed")
+                self.kern.learn(dir + "/fixed_" + file)
                 self.flag = True
 
     def interact(self):
