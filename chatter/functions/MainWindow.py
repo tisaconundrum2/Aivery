@@ -78,7 +78,7 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
                 f_out = open(dir + "/" + file + "_fixed", 'bw+')
                 f_out.write(result)
 
-                self.kern.learn(os.path.join(dir, f_out))
+                self.kern.learn(dir + "/" + file + "_fixed")
                 self.flag = True
 
     def interact(self):
