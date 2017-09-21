@@ -69,23 +69,11 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
         self.pushButton.clicked.connect(self.interact)
         self.actionNew_Chat.triggered.connect()
 
-    def processBrain(self):
-        import lxml.etree as etree
+    def brainDir(self):
         # TODO add a Qsetting in here to remember where the brains are.
-        dir = QtWidgets.QFileDialog.getExistingDirectory(None, "Select Brain Directory", '.')
-        for file in os.listdir(dir):
-            if file.endswith(".aiml"):
-                print("Loading: {}".format(file))
-                f = open(dir + "/" + file, 'r')
-                data = f.read()
-                parser = etree.XMLParser(recover=True)
-                root = etree.fromstring(data, parser)
-                result = etree.tostring(root)
-                f_out = open(dir + "/fixed_" + file, 'bw+')
-                f_out.write(result)
+        self.dir = QtWidgets.QFileDialog.getExistingDirectory(None, "Select Brain Directory", '.')
+        self.start()
 
-                self.kern.learn(dir + "/fixed_" + file)
-                self.flag = True
     def run(self):
         if os.path.exists(self.dir):
             for file in os.listdir(self.dir):
