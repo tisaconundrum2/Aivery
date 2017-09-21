@@ -17,7 +17,7 @@ setup(
     license="Public Domain",
     entry_points={
         'console_scripts': [
-            'Aivery = Aivery.__main__:main'
+            'Aivery = chatter.__main__:main'
         ]
     },
     classifiers=[
