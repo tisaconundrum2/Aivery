@@ -80,8 +80,12 @@ class Ui_MainWindow(object):
         self.pushButton.setText(_translate("MainWindow", "Send"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.menuHelp.setTitle(_translate("MainWindow", "Help"))
+        self.menuDebug.setTitle(_translate("MainWindow", "Debug"))
         self.actionNew_Chat.setText(_translate("MainWindow", "New Chat"))
         self.actionYou_Don_t_Need_Help.setText(_translate("MainWindow", "You Don\'t Need Help"))
+        self.actionOn.setText(_translate("MainWindow", "On"))
+        self.actionOff.setText(_translate("MainWindow", "Off"))
+        self.actionAbout.setText(_translate("MainWindow", "About"))
 
 
 if __name__ == "__main__":
