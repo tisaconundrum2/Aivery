@@ -91,3 +91,4 @@ auto_gitter.bat
 point_spectra_gui/saved.ini
 *.ini
 
+*.aiml_fixed
