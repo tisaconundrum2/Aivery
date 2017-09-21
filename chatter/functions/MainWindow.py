@@ -31,6 +31,19 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.connectWidgets()
         self.normal_mode()
 
+    def normal_mode(self):
+        sys.stdout = EmittingStream(textWritten=self.normalOutputWritten)
+        sys.stderr = sys.__stderr__
+        # sys.stderr = EmittingStream(textWritten=self.normalOutputWritten)
+        self.actionOn.setDisabled(False)
+        self.actionOff.setDisabled(True)
+
+    def debug_mode(self):
+        # Restore sys.stdout
+        sys.stdout = sys.__stdout__
+        self.actionOn.setDisabled(True)
+        self.actionOff.setDisabled(False)
+
     def connectWidgets(self):
         self.se
 
