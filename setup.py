@@ -29,7 +29,9 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords="chatbot AI",
-    packages=find_packages(include=['brain']),
-    include_package_data=True
-
+    packages=find_packages(exclude=['brain*']),
+    include_package_data=True,
+    install_requires=[
+        'PyQt5'
+    ]
 )
