@@ -7,10 +7,6 @@ import chatter
 VERSION = chatter.__version__
 here = path.abspath(path.dirname(__file__))
 
-# TODO PyPi requires a README.rst file, not a README.md
-# with open(path.join(here, 'README.md'), encoding='utf-8') as f:
-#     long_description = f.read()
-
 setup(
     name="Aivery",
     version=VERSION,
