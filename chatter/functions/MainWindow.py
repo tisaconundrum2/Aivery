@@ -98,7 +98,10 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
             self.textBrowser.clear()
             self.flag = False
         print("You: " + self.lineEdit.text())
-        response = self.kern.respond(self.lineEdit.text())
+        self.response = self.kern.respond(self.lineEdit.text())
+        self.lineEdit.clear()
+        timer.singleShot((len(self.response) * 30),
+                         lambda: print("{}: {}".format(self.kern.get_name(), self.response)))
         self.lineEdit.clear()
         timer.singleShot((len(response) * 30),
                          lambda: print("{}: {}".format(self.kern.get_name(), response)))
