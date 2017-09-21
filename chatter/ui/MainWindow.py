@@ -60,7 +60,10 @@ class Ui_MainWindow(object):
         self.actionAbout = QtWidgets.QAction(MainWindow)
         self.actionAbout.setObjectName("actionAbout")
         self.menuFile.addAction(self.actionNew_Chat)
-        self.menuHelp.addAction(self.actionYou_Don_t_Need_Help)
+        self.menuDebug.addAction(self.actionOn)
+        self.menuDebug.addAction(self.actionOff)
+        self.menuHelp.addAction(self.actionAbout)
+        self.menuHelp.addAction(self.menuDebug.menuAction())
         self.menubar.addAction(self.menuFile.menuAction())
         self.menubar.addAction(self.menuHelp.menuAction())
 
