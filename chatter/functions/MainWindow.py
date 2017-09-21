@@ -28,8 +28,9 @@ class EmittingStream(QtCore.QObject):
 class Ui_MainWindow(Ui_MainWindow, Basics):
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
-        self.connectWidgets()
         self.normal_mode()
+        self.processBrain()
+        self.connectWidgets()
 
     def normal_mode(self):
         sys.stdout = EmittingStream(textWritten=self.normalOutputWritten)
