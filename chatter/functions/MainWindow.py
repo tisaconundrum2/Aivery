@@ -57,6 +57,7 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.textBrowser.ensureCursorVisible()
 
     def connectWidgets(self):
+        self.kern.set_name("Aivery")
         self.actionOn.triggered.connect(self.debug_mode)
         self.actionOff.triggered.connect(self.normal_mode)
         self.actionLoad_Brainz.triggered.connect(self.processBrain)
