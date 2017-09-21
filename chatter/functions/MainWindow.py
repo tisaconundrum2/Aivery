@@ -62,6 +62,24 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.lineEdit.clear()
 
 
+def get_splash(app):
+    """
+    Get the splash screen for the application
+    But check to see if the image even exists
+    :param app:
+    :return:
+    """
+    dir = '../images/'
+    if os.path.exists(dir + 'robot.png'):
+        splash_pix = QPixmap(dir + 'robot.png')  # default
+        app_icon = QtGui.QIcon(dir + 'robot.png')
+        app.setWindowIcon(app_icon)
+        splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
+        splash.setMask(splash_pix.mask())
+        splash.show()
+        time.sleep(0.6)
+        app.processEvents()
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
