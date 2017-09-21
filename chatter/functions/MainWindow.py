@@ -13,7 +13,6 @@ from PyQt5.QtWidgets import QSplashScreen
 from chatter.ui.MainWindow import Ui_MainWindow
 from chatter.util.BasicFunctionality import Basics
 from chatter.util.excepthook import my_exception_hook
-from pyAIML.Kernel import Kernel
 from pyAIML.core_aiml.kernel import Kernel
 
 timer = QtCore.QTimer()
