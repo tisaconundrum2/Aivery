@@ -32,9 +32,12 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
     def __init__(self):
         super().__init__()
         self.kern = Kernel()
+
+    def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.normal_mode()
         self.connectWidgets()
+        self.start()
 
     def normal_mode(self):
         sys.stdout = EmittingStream(textWritten=self.normalOutputWritten)
@@ -81,6 +84,18 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
 
                 self.kern.learn(dir + "/fixed_" + file)
                 self.flag = True
+    def run(self):
+        if os.path.exists(self.dir):
+            for file in os.listdir(self.dir):
+                if file.endswith(".aiml"):
+                    print("Loaded: {}".format(file))
+                    self.kern.learn(os.path.join(self.dir, file))
+                    self.flag = True
+            print("{}: {}".format(self.kern.get_name(), "Brain dump is done."))
+            print("{}: {}".format(self.kern.get_name(), "You may now talk to me."))
+        else:
+            print("{}: {}".format(self.kern.get_name(), "I couldn't upload my memory"))
+            print("{}: {}".format(self.kern.get_name(), "Please click File and locate my memory"))
 
     def interact(self):
         if self.flag:
