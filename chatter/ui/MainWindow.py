@@ -73,8 +73,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Aivery"))
-        self.plainTextEdit.setToolTip(_translate("MainWindow", "<html><head/><body><p>The box in which you see your chat</p></body></html>"))
-        self.plainTextEdit.setWhatsThis(_translate("MainWindow", "<html><head/><body><p><br/></p></body></html>"))
+        self.textBrowser.setToolTip(_translate("MainWindow", "<html><head/><body><p>The box in which you see your chat</p></body></html>"))
+        self.textBrowser.setWhatsThis(_translate("MainWindow", "<html><head/><body><p><br/></p></body></html>"))
         self.lineEdit.setToolTip(_translate("MainWindow", "<html><head/><body><p>Type Here</p></body></html>"))
         self.pushButton.setToolTip(_translate("MainWindow", "<html><head/><body><p>Send your messages to the bot</p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Send"))
