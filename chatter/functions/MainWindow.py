@@ -16,7 +16,6 @@ from chatter.util.excepthook import my_exception_hook
 from pyAIML.core_aiml.kernel import Kernel
 
 timer = QtCore.QTimer()
-talked = False
 
 class EmittingStream(QtCore.QObject):
     textWritten = QtCore.pyqtSignal(str)
@@ -66,7 +65,6 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
         self.actionOff.triggered.connect(self.normal_mode)
         self.actionLoad_Brainz.triggered.connect(self.brainDir)
         self.pushButton.setShortcut("Return")
-        self.pushButton.setShortcut("Enter")
         self.pushButton.clicked.connect(self.interact)
         self.actionNew_Chat.triggered.connect(self.new_chat_triggered)
         self.talkForMePushButton.clicked.connect(self.talkForMe)
@@ -104,10 +102,10 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
                          lambda: print("{}: {}".format(self.kern.get_name(), self.response)))
 
     def talkForMe(self):
-        global talked
-        if not talked:
+        if self.flag:
             self.response = self.kern.respond("Hi")
-            talked = True
+            self.textBrowser.clear()
+            self.flag = False
         self.response = self.kern.respond(self.response)
         self.lineEdit.clear()
         timer.singleShot((len(self.response) * 30),
