@@ -68,7 +68,9 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
         self.pushButton.setShortcut("Return")
         self.pushButton.setShortcut("Enter")
         self.pushButton.clicked.connect(self.interact)
-        self.actionNew_Chat.triggered.connect()
+        self.actionNew_Chat.triggered.connect(self.new_chat_triggered)
+        self.talkForMePushButton.clicked.connect(self.talkForMe)
+
 
     def brainDir(self):
         # TODO add a Qsetting in here to remember where the brains are.
