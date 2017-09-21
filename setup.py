@@ -12,7 +12,7 @@ setup(
     version=VERSION,
     description="A Qt based AI",
     # long_description=long_description,
-    author="Nicholas Finch",
+    author="tisaconundrum",
     author_email='ngf4@nau.edu',
     license="Public Domain",
     entry_points={
