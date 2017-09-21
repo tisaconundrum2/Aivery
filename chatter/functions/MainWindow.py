@@ -52,7 +52,10 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.textBrowser.ensureCursorVisible()
 
     def connectWidgets(self):
-        self.se
+        self.actionOn.triggered.connect(self.debug_mode)
+        self.actionOff.triggered.connect(self.normal_mode)
+        self.pushButton.setShortcut("Return")
+        self.pushButton.clicked.connect(self.userPrint)
 
 
 if __name__ == "__main__":
