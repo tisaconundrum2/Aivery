@@ -67,14 +67,9 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         else:
             print("AI: I'm broken without a brain")
 
-
-
     def userPrint(self):
         print("You: " + self.lineEdit.text())
         self.lineEdit.clear()
-
-
-        """
 
 
 def get_splash(app):
