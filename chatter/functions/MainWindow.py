@@ -44,6 +44,13 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.actionOn.setDisabled(True)
         self.actionOff.setDisabled(False)
 
+    def normalOutputWritten(self, text):
+        cursor = self.textBrowser.textCursor()
+        cursor.movePosition(QtGui.QTextCursor.End)
+        cursor.insertText(text)
+        self.textBrowser.setTextCursor(cursor)
+        self.textBrowser.ensureCursorVisible()
+
     def connectWidgets(self):
         self.se
 
