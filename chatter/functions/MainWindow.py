@@ -30,7 +30,6 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.kern = Kernel()
         super().setupUi(MainWindow)
         self.normal_mode()
-        self.processBrain()
         self.connectWidgets()
 
     def normal_mode(self):
@@ -62,7 +61,10 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
 
     def processBrain(self):
         # TODO add a Qsetting in here to remember where the brains are.
-
+        dir = QtWidgets.QFileDialog.getExistingDirectory(None, "Select Brain Directory", '.')
+        for file in os.listdir(dir):
+            if file.endswith(".aiml"):
+                self.kern.learn(os.path.join(dir, file))
 
     def userPrint(self):
         print("You: " + self.lineEdit.text())
