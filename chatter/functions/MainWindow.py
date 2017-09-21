@@ -80,6 +80,11 @@ def get_splash(app):
         time.sleep(0.6)
         app.processEvents()
 
+
+def main():
+    sys._excepthook = sys.excepthook
+    sys.excepthook = my_exception_hook
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
