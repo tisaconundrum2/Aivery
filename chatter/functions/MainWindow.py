@@ -17,6 +17,7 @@ from pyAIML.core_aiml.kernel import Kernel
 
 timer = QtCore.QTimer()
 
+talked = False
 
 class EmittingStream(QtCore.QObject):
     textWritten = QtCore.pyqtSignal(str)
@@ -102,9 +103,16 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
         self.lineEdit.clear()
         timer.singleShot((len(self.response) * 30),
                          lambda: print("{}: {}".format(self.kern.get_name(), self.response)))
+
+    def talkForMe(self):
+        global talked
+        if not talked:
+            self.response = self.kern.respond("Hi")
+            talked = True
+        self.response = self.kern.respond(self.response)
         self.lineEdit.clear()
-        timer.singleShot((len(response) * 30),
-                         lambda: print("{}: {}".format(self.kern.get_name(), response)))
+        timer.singleShot((len(self.response) * 30),
+                         lambda: print("{}: {}".format(self.kern.get_name(), self.response)))
 
 
 def get_splash(app):
