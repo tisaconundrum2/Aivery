@@ -16,7 +16,6 @@ from chatter.util.excepthook import my_exception_hook
 from pyAIML.core_aiml.kernel import Kernel
 
 timer = QtCore.QTimer()
-
 talked = False
 
 class EmittingStream(QtCore.QObject):
