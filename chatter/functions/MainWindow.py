@@ -57,6 +57,10 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.pushButton.setShortcut("Return")
         self.pushButton.clicked.connect(self.userPrint)
 
+    def userPrint(self):
+        print("You: " + self.lineEdit.text())
+        self.lineEdit.clear()
+
 
 if __name__ == "__main__":
     import sys
