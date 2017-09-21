@@ -16,6 +16,8 @@ from chatter.util.excepthook import my_exception_hook
 from pyAIML.Kernel import Kernel
 from pyAIML.core_aiml.kernel import Kernel
 
+timer = QtCore.QTimer()
+
 
 class EmittingStream(QtCore.QObject):
     textWritten = QtCore.pyqtSignal(str)
@@ -69,8 +71,15 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
                 self.kern.learn(os.path.join(dir, file))
 
     def userPrint(self):
+    def interact(self):
+        if self.flag:
+            self.textBrowser.clear()
+            self.flag = False
         print("You: " + self.lineEdit.text())
+        response = self.kern.respond(self.lineEdit.text())
         self.lineEdit.clear()
+        timer.singleShot((len(response) * 100),
+                         lambda: print("{}: {}".format(self.kern.get_name(), response)))
 
 
 def get_splash(app):
