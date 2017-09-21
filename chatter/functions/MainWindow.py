@@ -27,6 +27,7 @@ class EmittingStream(QtCore.QObject):
 
 class Ui_MainWindow(Ui_MainWindow, Basics):
     def setupUi(self, MainWindow):
+        self.kern = Kernel()
         super().setupUi(MainWindow)
         self.normal_mode()
         self.processBrain()
