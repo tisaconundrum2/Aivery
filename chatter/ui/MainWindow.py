@@ -84,7 +84,7 @@ class Ui_MainWindow(object):
         self.lineEdit.setToolTip(_translate("MainWindow", "<html><head/><body><p>Type Here</p></body></html>"))
         self.pushButton.setToolTip(_translate("MainWindow", "<html><head/><body><p>Send your messages to the bot</p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Send"))
-        self.talkForMePushButton.setToolTip(_translate("MainWindow", "<html><head/><body><p>Send your messages to the bot</p></body></html>"))
+        self.talkForMePushButton.setToolTip(_translate("MainWindow", "<html><head/><body><p>Make the bot talk to itself</p></body></html>"))
         self.talkForMePushButton.setText(_translate("MainWindow", "Talk for me"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.menuHelp.setTitle(_translate("MainWindow", "Help"))
