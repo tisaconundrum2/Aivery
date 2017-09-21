@@ -22,7 +22,7 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QPlainTextEdit" name="plainTextEdit">
+       <widget class="QTextBrowser" name="textBrowser">
         <property name="enabled">
          <bool>true</bool>
         </property>
@@ -31,12 +31,6 @@
         </property>
         <property name="whatsThis">
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-        <property name="readOnly">
-         <bool>true</bool>
-        </property>
-        <property name="cursorWidth">
-         <number>1</number>
         </property>
        </widget>
       </item>
@@ -84,7 +78,15 @@
     <property name="title">
      <string>Help</string>
     </property>
-    <addaction name="actionYou_Don_t_Need_Help"/>
+    <widget class="QMenu" name="menuDebug">
+     <property name="title">
+      <string>Debug</string>
+     </property>
+     <addaction name="actionOn"/>
+     <addaction name="actionOff"/>
+    </widget>
+    <addaction name="actionAbout"/>
+    <addaction name="menuDebug"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuHelp"/>
@@ -98,6 +100,21 @@
   <action name="actionYou_Don_t_Need_Help">
    <property name="text">
     <string>You Don't Need Help</string>
+   </property>
+  </action>
+  <action name="actionOn">
+   <property name="text">
+    <string>On</string>
+   </property>
+  </action>
+  <action name="actionOff">
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
    </property>
   </action>
  </widget>
