@@ -94,7 +94,7 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
         print("You: " + self.lineEdit.text())
         response = self.kern.respond(self.lineEdit.text())
         self.lineEdit.clear()
-        timer.singleShot((len(response) * 100),
+        timer.singleShot((len(response) * 30),
                          lambda: print("{}: {}".format(self.kern.get_name(), response)))
 
 
