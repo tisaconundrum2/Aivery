@@ -59,7 +59,10 @@ class Ui_MainWindow(object):
         self.actionOff.setObjectName("actionOff")
         self.actionAbout = QtWidgets.QAction(MainWindow)
         self.actionAbout.setObjectName("actionAbout")
+        self.actionLoad_Brainz = QtWidgets.QAction(MainWindow)
+        self.actionLoad_Brainz.setObjectName("actionLoad_Brainz")
         self.menuFile.addAction(self.actionNew_Chat)
+        self.menuFile.addAction(self.actionLoad_Brainz)
         self.menuDebug.addAction(self.actionOn)
         self.menuDebug.addAction(self.actionOff)
         self.menuHelp.addAction(self.actionAbout)
@@ -86,6 +89,7 @@ class Ui_MainWindow(object):
         self.actionOn.setText(_translate("MainWindow", "On"))
         self.actionOff.setText(_translate("MainWindow", "Off"))
         self.actionAbout.setText(_translate("MainWindow", "About"))
+        self.actionLoad_Brainz.setText(_translate("MainWindow", "Load Brainz"))
 
 
 if __name__ == "__main__":

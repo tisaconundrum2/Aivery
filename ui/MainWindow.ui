@@ -73,6 +73,7 @@
      <string>File</string>
     </property>
     <addaction name="actionNew_Chat"/>
+    <addaction name="actionLoad_Brainz"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -115,6 +116,11 @@
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="actionLoad_Brainz">
+   <property name="text">
+    <string>Load Brainz</string>
    </property>
   </action>
  </widget>
