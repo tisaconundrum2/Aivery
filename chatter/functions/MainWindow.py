@@ -83,7 +83,10 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
             for file in os.listdir(self.dir):
                 if file.endswith(".aiml"):
                     print("Loaded: {}".format(file))
-                    self.kern.learn(os.path.join(self.dir, file))
+                    try:
+                        self.kern.learn(os.path.join(self.dir, file))
+                    except:
+                        pass
                     self.flag = True
             print("{}: {}".format(self.kern.get_name(), "Brain dump is done."))
             print("{}: {}".format(self.kern.get_name(), "You may now talk to me."))
