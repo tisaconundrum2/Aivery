@@ -62,8 +62,6 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.lineEdit.clear()
 
 
-if __name__ == "__main__":
-    import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
