@@ -68,9 +68,18 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         dir = QtWidgets.QFileDialog.getExistingDirectory(None, "Select Brain Directory", '.')
         for file in os.listdir(dir):
             if file.endswith(".aiml"):
-                self.kern.learn(os.path.join(dir, file))
+                print("Loading: {}".format(file))
+                f = open(dir + "/" + file, 'r')
+                data = f.read()
+                parser = etree.XMLParser(recover=True)
+                root = etree.fromstring(data, parser)
+                result = etree.tostring(root)
+                f_out = open(dir + "/" + file + "_fixed", 'bw+')
+                f_out.write(result)
 
-    def userPrint(self):
+                self.kern.learn(os.path.join(dir, f_out))
+                self.flag = True
+
     def interact(self):
         if self.flag:
             self.textBrowser.clear()
