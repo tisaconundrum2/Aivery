@@ -27,7 +27,9 @@ class EmittingStream(QtCore.QObject):
 
 class Ui_MainWindow(Ui_MainWindow, Basics):
     def setupUi(self, MainWindow):
-        super().setupUi()
+        super().setupUi(MainWindow)
+        self.connectWidgets()
+        self.normal_mode()
 
     def connectWidgets(self):
         self.se
