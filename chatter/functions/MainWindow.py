@@ -61,11 +61,13 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
 
     def connectWidgets(self):
         self.kern.set_name("Aivery")
+        self.dir = '../brain'
         self.actionOn.triggered.connect(self.debug_mode)
         self.actionOff.triggered.connect(self.normal_mode)
-        self.actionLoad_Brainz.triggered.connect(self.processBrain)
+        self.actionLoad_Brainz.triggered.connect(self.brainDir)
         self.pushButton.setShortcut("Return")
         self.pushButton.clicked.connect(self.interact)
+        self.actionNew_Chat.triggered.connect()
 
     def processBrain(self):
         import lxml.etree as etree
