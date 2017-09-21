@@ -55,6 +55,7 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
     def connectWidgets(self):
         self.actionOn.triggered.connect(self.debug_mode)
         self.actionOff.triggered.connect(self.normal_mode)
+        self.actionLoad_Brainz.triggered.connect(self.processBrain)
         self.pushButton.setShortcut("Return")
         self.pushButton.clicked.connect(self.userPrint)
 
