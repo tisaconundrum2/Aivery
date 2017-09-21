@@ -61,7 +61,7 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.actionOff.triggered.connect(self.normal_mode)
         self.actionLoad_Brainz.triggered.connect(self.processBrain)
         self.pushButton.setShortcut("Return")
-        self.pushButton.clicked.connect(self.userPrint)
+        self.pushButton.clicked.connect(self.interact)
 
     def processBrain(self):
         # TODO add a Qsetting in here to remember where the brains are.
