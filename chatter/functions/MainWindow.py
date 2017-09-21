@@ -59,13 +59,8 @@ class Ui_MainWindow(Ui_MainWindow, Basics):
         self.pushButton.clicked.connect(self.userPrint)
 
     def processBrain(self):
-        dir = 'brain'
-        if os.path.exists(dir):
-            for file in os.listdir(dir):
-                if file.endswith(".aiml"):
-                    k.learn(os.path.join(dir, file))
-        else:
-            print("AI: I'm broken without a brain")
+        # TODO add a Qsetting in here to remember where the brains are.
+
 
     def userPrint(self):
         print("You: " + self.lineEdit.text())

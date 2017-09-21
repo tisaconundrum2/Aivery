@@ -1,9 +1,10 @@
 from os import path
+
 from setuptools import setup, find_packages
 
-import aivery
+import chatter
 
-VERSION = aivery.__version__
+VERSION = chatter.__version__
 here = path.abspath(path.dirname(__file__))
 
 # TODO PyPi requires a README.rst file, not a README.md
@@ -34,5 +35,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords="chatbot AI",
-    packages=find_packages()
+    packages=find_packages(include=['brain']),
+    include_package_data=True
+
 )
