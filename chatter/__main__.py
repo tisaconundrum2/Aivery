@@ -1,7 +1,4 @@
 from chatter.functions import MainWindow
 
 if __name__ == '__main__':
-    try:
-        MainWindow.main()
-    except:
-        pass
+    MainWindow.main()
