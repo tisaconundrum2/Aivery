@@ -23,6 +23,8 @@ class EmittingStream(QtCore.QObject):
 
     def write(self, text):
         self.textWritten.emit(str(text))
+        f = open('log.txt', 'w+')
+        f.write(str(text))
 
     def flush(self):
         pass
