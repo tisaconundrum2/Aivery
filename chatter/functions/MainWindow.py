@@ -20,11 +20,11 @@ timer = QtCore.QTimer()
 
 class EmittingStream(QtCore.QObject):
     textWritten = QtCore.pyqtSignal(str)
+    f = open('log.txt', 'w+')
 
     def write(self, text):
+        self.f.write(str(text))
         self.textWritten.emit(str(text))
-        f = open('log.txt', 'w+')
-        f.write(str(text))
 
     def flush(self):
         pass
@@ -43,14 +43,14 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
 
     def normal_mode(self):
         sys.stdout = EmittingStream(textWritten=self.normalOutputWritten)
-        sys.stderr = sys.__stderr__
-        # sys.stderr = EmittingStream(textWritten=self.normalOutputWritten)
+        sys.stderr = EmittingStream(textWritten=self.normalOutputWritten)
         self.actionOn.setDisabled(False)
         self.actionOff.setDisabled(True)
 
     def debug_mode(self):
         # Restore sys.stdout
         sys.stdout = sys.__stdout__
+        sys.stderr = sys.__stderr__
         self.actionOn.setDisabled(True)
         self.actionOff.setDisabled(False)
 
