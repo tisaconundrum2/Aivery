@@ -67,3 +67,4 @@ target/
 
 # Vim
 *.swp
+*log.txt
