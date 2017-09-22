@@ -17,6 +17,7 @@ from pyAIML.core_aiml.kernel import Kernel
 
 timer = QtCore.QTimer()
 
+
 class EmittingStream(QtCore.QObject):
     textWritten = QtCore.pyqtSignal(str)
 
@@ -95,21 +96,23 @@ class Ui_MainWindow(Ui_MainWindow, QThread, Basics):
             print("{}: {}".format(self.kern.get_name(), "Please click File and locate my memory"))
 
     def interact(self):
+        regex = ["'", "\\", "/", '~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '`']
         if self.flag:
             self.textBrowser.clear()
             self.flag = False
         print("You: " + self.lineEdit.text())
-        self.response = self.kern.respond(self.lineEdit.text())
+        self.response = self.kern.respond(self.lineEdit.text().translate({ord(i): None for i in regex}))
         self.lineEdit.clear()
         timer.singleShot((len(self.response) * 30),
                          lambda: print("{}: {}".format(self.kern.get_name(), self.response)))
 
     def talkForMe(self):
+        regex = ["'", "\\", "/", '~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '`']
         if self.flag:
             self.response = self.kern.respond("Hi")
             self.textBrowser.clear()
             self.flag = False
-        self.response = self.kern.respond(self.response)
+        self.response = self.kern.respond(self.response.translate({ord(i): None for i in regex}))
         self.lineEdit.clear()
         timer.singleShot((len(self.response) * 30),
                          lambda: print("{}: {}".format(self.kern.get_name(), self.response)))
